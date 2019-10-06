@@ -8,7 +8,7 @@ public class Circle extends Shape{
         this.radius = 1;
     }
 
-    public Circle(String color, Boolean filled, double radius) {
+    public Circle(double radius, String color, Boolean filled) {
         super(color, filled);
         this.radius = radius;
     }
