@@ -31,9 +31,10 @@ public class Main {
 
         System.out.println(sum3);
 
-        int[] arr = new int[];
+        int[] arr = new int[10];
         for (int i = 0; i < 10; i++) {
-            arr[i] = Math.round((int)Math.random() * 100);
+            arr[i] = (int) (Math.random() * 10);
+            System.out.println(arr[i]);
         }
     }
 }
