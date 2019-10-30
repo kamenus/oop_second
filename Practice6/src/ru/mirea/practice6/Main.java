@@ -17,9 +17,9 @@ public class Main {
 
         System.out.println("Array before sort: " + students);
         Collections.sort(students, Student.IDcomparator);
-        System.out.println("Array before sort: " + students);
+        System.out.println("Array after sort by id: " + students);
 
         Collections.sort(students, Student.GPAComparator);
-        System.out.println("Array before sort: " + students);
+        System.out.println("Array after sort by GPA: " + students);
     }
 }
